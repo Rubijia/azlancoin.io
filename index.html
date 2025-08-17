@@ -1,65 +1,50 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Azlan Coin (AZC) — Home</title>
-  <meta name="description" content="Azlan Coin (AZC) — community-driven token on BNB Smart Chain.">
-  <meta property="og:title" content="Azlan Coin (AZC) — Home">
-  <meta property="og:description" content="Azlan Coin (AZC) — community-driven token on BNB Smart Chain.">
-  <link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Azlan Coin</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
 </head>
 <body>
-<header class="container header">
-  <div class="brand"><img src="assets/logo.svg" alt="Azlan"><div style="line-height:1"><strong style="color:var(--accent)">Azlan Coin</strong><br/><small style="color:var(--muted)">AZC • BNB Smart Chain</small></div></div>
-  <nav id="navMenu" class="nav"><a href="index.html">Home</a><a href="tokenomics.html">Tokenomics</a><a href="roadmap.html">Roadmap</a><a href="howtobuy.html">How to Buy</a><a href="whitepaper.html">Whitepaper</a><a href="contact.html">Contact</a></nav>
-  <button id="menuBtn" class="menu-toggle" aria-label="Toggle menu">☰</button>
-</header>
-<main class="container">
-
-<section class="hero">
-  <div class="card">
-    <div>
-      <h1>Azlan Coin (AZC) <span class="badge">Community Token</span></h1>
-      <p class="lead">Royal + modern — Azlan brings community-first tokenomics on BNB Smart Chain with clear allocation and liquidity transparency.</p>
-      <div style="display:flex;gap:10px;flex-wrap:wrap">
-        <a class="btn" href="howtobuy.html">Buy AZC</a>
-        <a class="btn secondary" href="whitepaper.html">Read Whitepaper</a>
-        <a class="btn secondary" href="https://pancakeswap.finance/swap?outputCurrency=0xB9697BFC6eFA3e4893d0B1Ee75838eBE35AcedAd" target="_blank">Swap on PancakeSwap</a>
-      </div>
-      <div class="grid">
-        <div class="card" style="background:transparent;padding:14px;">
-          <strong>Token Snapshot</strong>
-          <div class="kv"><span>Symbol</span><span>AZC</span></div>
-          <div class="kv"><span>Total Supply</span><span>10,000,000,000</span></div>
-          <div class="kv"><span>Decimals</span><span>18</span></div>
-          <div style="margin-top:10px"><a class="btn" href="https://bscscan.com/token/0xB9697BFC6eFA3e4893d0B1Ee75838eBE35AcedAd" target="_blank">View on BscScan</a></div>
-        </div>
-        <div class="card" style="background:transparent;padding:14px;">
-          <strong>Quick Links</strong>
-          <div style="margin-top:8px"><a href="https://pancakeswap.finance/swap?outputCurrency=0xB9697BFC6eFA3e4893d0B1Ee75838eBE35AcedAd" class="btn" target="_blank">Buy on PancakeSwap</a></div>
-          <div style="margin-top:8px"><a class="btn secondary" href="tokenomics.html">Tokenomics</a></div>
-          <div style="margin-top:8px"><a class="btn secondary" href="roadmap.html">Roadmap</a></div>
-        </div>
-      </div>
+  <header id="home">
+    <div class="hero">
+      <h1>Welcome to Azlan Coin</h1>
+      <p>The Future of Decentralized Finance</p>
+      <a href="#about" class="btn">Learn More</a>
     </div>
-  </div>
-  <div class="card" style="width:320px;min-width:260px">
-    <h3 style="margin-top:0;color:var(--accent)">Why Azlan Coin</h3>
-    <p class="lead" style="margin-top:6px">Built for community growth, clear tokenomics, and real-world utility. We prioritize transparency: audited contract & locked liquidity.</p>
-    <h4 style="margin-top:12px">Security</h4>
-    <p style="color:var(--muted)">Liquidity lock & audit details will appear here once completed. Add proof link from your locking provider.</p>
-    <div style="margin-top:12px"><a class="btn" href="contact.html">Get in Touch</a></div>
-  </div>
-</section>
+  </header>
 
-<section class="section card">
-  <h2 style="margin-top:0;color:var(--accent)">Latest Updates</h2>
-  <p class="lead" style="color:var(--muted)">Website refreshed with royal-modern theme. Contract verified — prepare liquidity for PancakeSwap V3. Join Telegram for launch announcements.</p>
-</section>
+  <section id="about">
+    <h2>About Azlan Coin</h2>
+    <p>Azlan Coin (AZC) is a next-generation cryptocurrency built for security, transparency, and growth.</p>
+  </section>
 
-</main>
-<footer class="footer">© 2025 Azlan Coin — Contract: <a href="https://bscscan.com/token/0xB9697BFC6eFA3e4893d0B1Ee75838eBE35AcedAd" target="_blank" style="color:var(--accent)">0xB9697BFC6eFA3e4893d0B1Ee75838eBE35AcedAd</a></footer>
-<script src="js/main.js"></script>
+  <section id="tokenomics">
+    <h2>Tokenomics</h2>
+    <canvas id="tokenomicsChart" width="300" height="300"></canvas>
+  </section>
+
+  <section id="roadmap">
+    <h2>Roadmap</h2>
+    <ul>
+      <li><b>Q1:</b> Token Launch</li>
+      <li><b>Q2:</b> Exchange Listings</li>
+      <li><b>Q3:</b> Marketing Expansion</li>
+      <li><b>Q4:</b> Ecosystem Growth</li>
+    </ul>
+  </section>
+
+  <section id="whitepaper">
+    <h2>Whitepaper</h2>
+    <a href="assets/pdf/whitepaper.pdf" target="_blank" class="btn">Download Whitepaper</a>
+  </section>
+
+  <footer id="contact">
+    <p>Contact us: info@azlancoin.io</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="assets/js/main.js"></script>
 </body>
 </html>
